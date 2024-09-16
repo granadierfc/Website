@@ -7,7 +7,7 @@ body {
     padding: 20px;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #333;
 }
 
@@ -19,16 +19,12 @@ nav {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-nav h2 {
-    margin-top: 0;
-}
-
-ul {
+nav ul {
     list-style-type: none;
     padding: 0;
 }
 
-ul li {
+nav ul li {
     margin: 5px 0;
 }
 
@@ -46,10 +42,12 @@ a:hover {
     margin: 0 auto;
 }
 
-section {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+pre {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 15px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
 }
